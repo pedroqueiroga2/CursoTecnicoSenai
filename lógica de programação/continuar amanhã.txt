@@ -1,0 +1,87 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("informe a palavra");
+		string palavra = Console.ReadLine();
+		
+		Console.WriteLine("informe a letra");
+		
+		string letra = Console.ReadLine();
+		
+		Console.WriteLine($"A palavra {palavra}, tem {palavra.Length} caracteres e possui {letra.Length} letras {letra}");
+		
+		
+		
+		
+	}
+}
+
+
+
+
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("informe a palavra");
+		string palavra = Console.ReadLine();
+		
+		Console.WriteLine("informe a letra");
+		
+		char letra = char.Parse(Console.ReadLine());
+		
+		int total = 0;
+		
+		for(int conta = 0; conta<palavra.Length; conta++)
+		{
+			if(letra == palavra[conta])
+			{
+				total++;
+			}
+		}
+		Console.WriteLine($"a letra foi repetida {total}");
+		
+		
+		
+		
+	}
+}
+
+
+
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("informe a palavra");
+		string palavra = Console.ReadLine();
+		
+		Console.WriteLine("informe a letra");
+		
+		char letra = char.Parse(Console.ReadLine());
+		
+		int total = 0;
+		
+		for(int contadora = 0; contadora<palavra.Length; contadora++)
+		{
+		    if(letra == palavra[contadora])
+		{
+			total++;
+		}
+		}
+		Console.WriteLine($" a letra '{letra}' foi repetida {total} vezes.");
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,74 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		float resultado = 0;
+		Console.WriteLine("insira o primeiro valor: ");
+		if(float.TryParse(Console.ReadLine(), out float n1))
+		{
+			Console.WriteLine("operação");
+			string operacao = Console.ReadLine();
+			
+			Console.WriteLine("insira o segundo valor: ");
+			if(float.TryParse(Console.ReadLine(), out float n2))
+		{
+				bool opV = true;
+				switch (operacao)
+				{
+					case "+":
+						resultado = n1+n2;
+						
+						break;
+					case "-":
+						resultado = n1-n2;
+						
+						break;
+					case "*":
+						resultado = n1*n2;
+						
+						break;
+					case "/":
+						if(n2!=0)
+						{
+						resultado = n1/n2;
+						
+						}
+						else
+						{
+							opV = false;
+							
+						}
+						break;
+					default:
+				
+					opV = false;
+						break;
+				}
+				if(opV)
+				{
+					Console.WriteLine($"resultado : {resultado}");
+				}
+				else
+				{
+					Console.WriteLine("operação inválida");
+				}
+					
+				
+				
+				
+			}
+			else
+				{
+					Console.WriteLine("error2");
+				}
+		}
+		    else
+				{
+					Console.WriteLine("error1");
+				}
+			
+		
+	}
+}

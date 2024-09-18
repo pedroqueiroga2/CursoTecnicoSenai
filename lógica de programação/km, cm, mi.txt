@@ -1,0 +1,39 @@
+using System;
+class HelloWorld {
+  static void Main() {
+      float resultado = 0;
+    Console.WriteLine("escreva a distância em metros ");
+    float.TryParse(Console.ReadLine(), out float metros2);
+   
+    Console.WriteLine("cm - converte para centímetros ");
+    Console.WriteLine("km - converte para Quilômetros ");
+    Console.WriteLine("mi - converte para Milhas ");
+    string metros = Console.ReadLine();
+    bool opv = true;
+    switch(metros)
+    {
+        case "cm" :
+        resultado = metros2*100f;
+        break;
+        case "km" :
+        resultado = metros2*1000f;
+        break;
+        case "mi" :
+        resultado = metros2*0.0006f;
+        break;
+        default :
+        opv = false;
+        break;
+    }
+    if(opv)
+    {
+        Console.WriteLine($"o valor da conversão é {resultado}");
+    }
+    else
+    {
+        Console.WriteLine("erro");
+    }
+   
+    
+  }
+}
