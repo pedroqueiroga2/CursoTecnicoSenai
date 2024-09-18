@@ -1,0 +1,14 @@
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\bin\Debug\net8.0\vapovapotiriça.exe
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\bin\Debug\net8.0\vapovapotiriça.deps.json
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\bin\Debug\net8.0\vapovapotiriça.runtimeconfig.json
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\bin\Debug\net8.0\vapovapotiriça.dll
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\bin\Debug\net8.0\vapovapotiriça.pdb
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\obj\Debug\net8.0\vapovapotiriça.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\obj\Debug\net8.0\vapovapotiriça.AssemblyInfoInputs.cache
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\obj\Debug\net8.0\vapovapotiriça.AssemblyInfo.cs
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\obj\Debug\net8.0\vapovapotiriça.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\obj\Debug\net8.0\vapovapotiriça.dll
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\obj\Debug\net8.0\refint\vapovapotiriça.dll
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\obj\Debug\net8.0\vapovapotiriça.pdb
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\obj\Debug\net8.0\vapovapotiriça.genruntimeconfig.cache
+C:\Users\Alunos\Music\PL M\VSCODEPEDRO\vapovapotiriça\obj\Debug\net8.0\ref\vapovapotiriça.dll

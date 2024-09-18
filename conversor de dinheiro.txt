@@ -1,0 +1,44 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		float valor = 0;
+		Console.WriteLine("escreva valor em real");
+		 int.TryParse(Console.ReadLine(), out int real);
+		Console.WriteLine("escreva para qual moeda você quer converter");
+			string moeda = Console.ReadLine();
+				bool op = true;
+		switch (moeda)
+		{
+				case "dólar" :
+				valor = real/5.44f;
+				
+				break;
+				case "euro" :
+				valor = real/6.04f;
+				
+				break;
+				
+				case "libra" :
+				
+				valor = real/7.08f;
+				
+				break;
+			default:
+				op = false;
+				break;
+		}
+				if(op)
+				{
+					Console.WriteLine($"valor: {valor}");
+					
+				}
+				else
+				{
+					Console.WriteLine("Aí, ce me quebra né, meu fi");
+				}
+		
+	}
+}

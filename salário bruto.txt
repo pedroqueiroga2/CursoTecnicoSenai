@@ -1,0 +1,32 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Valor do salário:");
+		if(decimal.TryParse(Console.ReadLine(), out decimal salario))
+	{
+	
+		if(salario<=3000){
+			
+				Console.WriteLine("o valor do imposto será de " + 0.1m*salario + "R$");
+		}
+		 
+		else if(salario<=6000){
+			
+				Console.WriteLine("o valor do imposto será de " + 0.15m*salario + "R$");
+		}
+		else{
+			
+			Console.WriteLine("o valor do imposto será de " + 0.2m*salario + "R$");
+		}
+		}
+			else
+			{
+				Console.WriteLine("erro");
+			}
+			
+		
+	}
+}

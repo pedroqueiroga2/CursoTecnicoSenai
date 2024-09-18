@@ -1,0 +1,16 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		
+		Console.WriteLine("insira o número");
+		float.TryParse(Console.ReadLine(), out float valor);
+		for(int n = 1; n<=10; n++)
+		{
+		
+			Console.WriteLine(" a tabuada é " + (valor*n));
+		}
+	}
+}

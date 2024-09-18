@@ -1,0 +1,26 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    Console.WriteLine("escreva uma letra");
+    string letra = Console.ReadLine();
+    string[] vogal = {"a", "e", "i", "o", "u"};
+    string[] consoante = {"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "x", "y", "w", "z"};
+    
+    for(int l = 0; l<vogal.Length; l++)
+    {
+        if(vogal[l] == letra || vogal[l].ToUpper() == letra)
+        {
+            Console.WriteLine("é vogal");
+        }
+    }
+    for(int l = 0; l<consoante.Length; l++)
+    {
+        if(consoante[l] == letra || consoante[l].ToUpper() == letra)
+        {
+            Console.WriteLine("é consoante");
+        }
+        
+    }
+    
+  }
+}
